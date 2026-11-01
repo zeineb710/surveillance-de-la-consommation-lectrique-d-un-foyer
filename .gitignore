@@ -1,0 +1,34 @@
+# Environnements virtuels Python
+.venv/
+venv/
+env/
+
+# Fichiers Python générés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Outils de développement
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Variables d'environnement et secrets locaux
+.env
+.env.*
+!.env.example
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Logs et fichiers temporaires
+*.log
+*.tmp
+
+# Données brutes et sorties générées
+data/*.csv
+data/*.txt
+data/*.json
+data/output/
